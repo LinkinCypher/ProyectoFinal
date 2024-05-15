@@ -1,0 +1,445 @@
+<mxfile host="app.diagrams.net" modified="2024-05-15T21:34:06.969Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="YhZ35uXdBZTOsqL0etC7" version="24.4.0" type="device">
+  <diagram name="Página-1" id="DDzs3CPNpYIxoKpQ0X6o">
+    <mxGraphModel dx="2333" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-11" value="enviar credenciales&lt;div&gt;(usuario y contraseña)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-15" target="b2FmAE1zuhtvRE-gNQDL-16">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="340" y="170" as="sourcePoint" />
+            <mxPoint x="190" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-15" value="Usuario" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry y="40" width="120" height="1920" as="geometry" />
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-16" value="SGRC" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="120" height="1840" as="geometry" />
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-17" value="DataBase&lt;span style=&quot;background-color: initial;&quot;&gt;Connection&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="400" y="40" width="120" height="1840" as="geometry" />
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-18" value="Administrador" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="600" y="40" width="120" height="1840" as="geometry" />
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-21" value="Mecanico" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="800" y="40" width="120" height="1840" as="geometry" />
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-22" value="UsuarioLectura" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1000" y="40" width="120" height="1840" as="geometry" />
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-25" value="verificarCredenciales&lt;div&gt;(usuario y contraseña)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-16" target="b2FmAE1zuhtvRE-gNQDL-17">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="280" y="160" as="sourcePoint" />
+            <mxPoint x="520" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-26" value="credencialesVerificadas (rol)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-17" target="b2FmAE1zuhtvRE-gNQDL-16">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="459.5" y="200" as="sourcePoint" />
+            <mxPoint x="250" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-27" value="accesoConsedido (rol)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-16" target="b2FmAE1zuhtvRE-gNQDL-15">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="260" y="240" as="sourcePoint" />
+            <mxPoint x="60" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-28" value="ingresarRepuesto&amp;nbsp;&lt;div&gt;(marca, modelo, foto)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-18" target="b2FmAE1zuhtvRE-gNQDL-16">
+          <mxGeometry x="-0.5021" width="80" relative="1" as="geometry">
+            <mxPoint x="530" y="280" as="sourcePoint" />
+            <mxPoint x="610" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="280" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-29" value="guardarRepuesto&lt;div&gt;(marca, modelo, foto)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-16" target="b2FmAE1zuhtvRE-gNQDL-17">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="260" y="320" as="sourcePoint" />
+            <mxPoint x="461" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="401" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-30" value="repuestoGuardado()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-17" target="b2FmAE1zuhtvRE-gNQDL-16">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="460" y="360" as="sourcePoint" />
+            <mxPoint x="260" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-31" value="confirmacionIngresoRepuesto()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-16" target="b2FmAE1zuhtvRE-gNQDL-18">
+          <mxGeometry x="-0.4991" width="80" relative="1" as="geometry">
+            <mxPoint x="260" y="399.71" as="sourcePoint" />
+            <mxPoint x="460" y="399.71" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="401" y="399.71" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-32" value="RegistrarMecanico&lt;div&gt;(usuario, contraseña)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-18" target="b2FmAE1zuhtvRE-gNQDL-16">
+          <mxGeometry x="-0.5021" width="80" relative="1" as="geometry">
+            <mxPoint x="660" y="440" as="sourcePoint" />
+            <mxPoint x="260" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="440" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-33" value="guardarMecanico&lt;div&gt;(usuario, contraseña)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-16" target="b2FmAE1zuhtvRE-gNQDL-17">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="260" y="480" as="sourcePoint" />
+            <mxPoint x="460" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="401" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-34" value="mecanicoGuardado()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-17" target="b2FmAE1zuhtvRE-gNQDL-16">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="460" y="520" as="sourcePoint" />
+            <mxPoint x="260" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-35" value="confirmacionRegistroMecanico()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-16" target="b2FmAE1zuhtvRE-gNQDL-18">
+          <mxGeometry x="-0.4991" width="80" relative="1" as="geometry">
+            <mxPoint x="260" y="560.29" as="sourcePoint" />
+            <mxPoint x="660" y="560.29" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="401" y="560" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-36" value="solicitarRepuesto&lt;div&gt;(repuestoID, cantidad)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-21" target="b2FmAE1zuhtvRE-gNQDL-16">
+          <mxGeometry x="-0.6682" width="80" relative="1" as="geometry">
+            <mxPoint x="720" y="600" as="sourcePoint" />
+            <mxPoint x="800" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="600" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-37" value="guardarSolicitud&lt;div&gt;(mecanicoIi, repuestoId, cantidad)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-16" target="b2FmAE1zuhtvRE-gNQDL-17">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="260" y="640" as="sourcePoint" />
+            <mxPoint x="460" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="401" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-38" value="solicitudGuardada()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-17" target="b2FmAE1zuhtvRE-gNQDL-16">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="460" y="680" as="sourcePoint" />
+            <mxPoint x="260" y="680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-39" value="notificarNuevaSolicitud()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-16" target="b2FmAE1zuhtvRE-gNQDL-18">
+          <mxGeometry x="-0.4991" width="80" relative="1" as="geometry">
+            <mxPoint x="260" y="720" as="sourcePoint" />
+            <mxPoint x="660" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="401" y="720" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-40" value="asignarRepuesto&lt;div&gt;(solicitudId, repuestoId, cantidadId)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-18" target="b2FmAE1zuhtvRE-gNQDL-16">
+          <mxGeometry x="-0.5021" width="80" relative="1" as="geometry">
+            <mxPoint x="660" y="760" as="sourcePoint" />
+            <mxPoint x="260" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="760" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-41" value="actualizarEstadoSolicitud&lt;div&gt;(solicitudId, &quot;asignado&quot;)&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-16" target="b2FmAE1zuhtvRE-gNQDL-17">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="260" y="800" as="sourcePoint" />
+            <mxPoint x="460" y="800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="401" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-42" value="estadoSolicitudActualizado()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-17" target="b2FmAE1zuhtvRE-gNQDL-16">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="460" y="840" as="sourcePoint" />
+            <mxPoint x="260" y="840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-43" value="notificarRepuestoAsignado&lt;div&gt;(solicitudId)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-16" target="b2FmAE1zuhtvRE-gNQDL-21">
+          <mxGeometry x="-0.6682" width="80" relative="1" as="geometry">
+            <mxPoint x="910" y="880" as="sourcePoint" />
+            <mxPoint x="310" y="880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="880" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-44" value="actualizarEstadoRepuesto&lt;div&gt;(repuestoId, estado)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-18" target="b2FmAE1zuhtvRE-gNQDL-16">
+          <mxGeometry x="-0.5021" width="80" relative="1" as="geometry">
+            <mxPoint x="660" y="920" as="sourcePoint" />
+            <mxPoint x="260" y="920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="920" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-45" value="actualizarEstadoRepuesto&lt;div&gt;(repuestoId, estado)&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-16" target="b2FmAE1zuhtvRE-gNQDL-17">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="260" y="960" as="sourcePoint" />
+            <mxPoint x="460" y="960" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="401" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-46" value="estadoRepuestoActualizado()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-17" target="b2FmAE1zuhtvRE-gNQDL-16">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="460" y="1000" as="sourcePoint" />
+            <mxPoint x="250" y="1000" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-47" value="confirmacionActualizacionEstado()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-16" target="b2FmAE1zuhtvRE-gNQDL-18">
+          <mxGeometry x="-0.4991" width="80" relative="1" as="geometry">
+            <mxPoint x="260" y="1040" as="sourcePoint" />
+            <mxPoint x="660" y="1040" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="401" y="1040" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-48" value="registrarCamion&lt;div&gt;(modelo, maricula)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-21" target="b2FmAE1zuhtvRE-gNQDL-16">
+          <mxGeometry x="-0.6682" width="80" relative="1" as="geometry">
+            <mxPoint x="860" y="1080" as="sourcePoint" />
+            <mxPoint x="260" y="1080" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="1080" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-49" value="guardarCamion&lt;div&gt;(modelo, matricula, mecanicoId)&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-16" target="b2FmAE1zuhtvRE-gNQDL-17">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="260" y="1120" as="sourcePoint" />
+            <mxPoint x="460" y="1120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="401" y="1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-50" value="camionGuardado()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-17" target="b2FmAE1zuhtvRE-gNQDL-16">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="460" y="1160" as="sourcePoint" />
+            <mxPoint x="260" y="1160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="1160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-51" value="confirmacioRegistroCamion()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-16" target="b2FmAE1zuhtvRE-gNQDL-21">
+          <mxGeometry x="-0.6682" width="80" relative="1" as="geometry">
+            <mxPoint x="260" y="1200" as="sourcePoint" />
+            <mxPoint x="860" y="1200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="1200" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-52" value="consultarRepuestosDisponibles()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-21" target="b2FmAE1zuhtvRE-gNQDL-16">
+          <mxGeometry x="-0.6682" width="80" relative="1" as="geometry">
+            <mxPoint x="860" y="1240" as="sourcePoint" />
+            <mxPoint x="260" y="1240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="1240" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-53" value="obtenerRepuestosDisponibles()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-16" target="b2FmAE1zuhtvRE-gNQDL-17">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="260" y="1280" as="sourcePoint" />
+            <mxPoint x="460" y="1280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="401" y="1280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-54" value="listarRepuestosDisponibles&lt;div&gt;(repuestos)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-17" target="b2FmAE1zuhtvRE-gNQDL-16">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="460" y="1320" as="sourcePoint" />
+            <mxPoint x="260" y="1320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="1320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-55" value="mostrarRepuestosDisponibles&lt;div&gt;(repuestos)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-16" target="b2FmAE1zuhtvRE-gNQDL-21">
+          <mxGeometry x="-0.6682" width="80" relative="1" as="geometry">
+            <mxPoint x="260" y="1360" as="sourcePoint" />
+            <mxPoint x="860" y="1360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="1360" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-56" value="solicitarRepuestos&lt;div&gt;(repuestoId, cantidad)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-21" target="b2FmAE1zuhtvRE-gNQDL-16">
+          <mxGeometry x="-0.6682" width="80" relative="1" as="geometry">
+            <mxPoint x="860" y="1400" as="sourcePoint" />
+            <mxPoint x="260" y="1400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="1400" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-57" value="guardarSolicitudRepuesto&lt;div&gt;(mecanicoId, repuestoId, cantidad)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-16" target="b2FmAE1zuhtvRE-gNQDL-17">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="260" y="1440" as="sourcePoint" />
+            <mxPoint x="460" y="1440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="401" y="1440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-58" value="solicitudRepuestoGuardada()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-17" target="b2FmAE1zuhtvRE-gNQDL-16">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="460" y="1480" as="sourcePoint" />
+            <mxPoint x="260" y="1480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="1480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-59" value="confirmacionSolicitudRepuesto()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-16" target="b2FmAE1zuhtvRE-gNQDL-21">
+          <mxGeometry x="-0.6682" width="80" relative="1" as="geometry">
+            <mxPoint x="260" y="1520" as="sourcePoint" />
+            <mxPoint x="860" y="1520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="1520" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-60" value="consultarHistorialRepuestos()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-21" target="b2FmAE1zuhtvRE-gNQDL-16">
+          <mxGeometry x="-0.6682" width="80" relative="1" as="geometry">
+            <mxPoint x="860" y="1560" as="sourcePoint" />
+            <mxPoint x="260" y="1560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="1560" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-61" value="obtenerHistorialRepuestos&amp;nbsp;&lt;div&gt;(mecanicoId)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-16" target="b2FmAE1zuhtvRE-gNQDL-17">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="260" y="1600" as="sourcePoint" />
+            <mxPoint x="460" y="1600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="401" y="1600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-62" value="historialRepuestos&lt;div&gt;(historial)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-17" target="b2FmAE1zuhtvRE-gNQDL-16">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="460" y="1640" as="sourcePoint" />
+            <mxPoint x="260" y="1640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="1640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-63" value="mostrarHistorialRepuestos&lt;div&gt;(historial)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-16" target="b2FmAE1zuhtvRE-gNQDL-18">
+          <mxGeometry x="-0.4991" width="80" relative="1" as="geometry">
+            <mxPoint x="260" y="1680" as="sourcePoint" />
+            <mxPoint x="660" y="1680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="401" y="1680" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-64" value="consultarPedidos()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-22" target="b2FmAE1zuhtvRE-gNQDL-16">
+          <mxGeometry x="-0.6679" width="80" relative="1" as="geometry">
+            <mxPoint x="860" y="1720" as="sourcePoint" />
+            <mxPoint x="260" y="1720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="1720" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-65" value="obtenerPedidos()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-16" target="b2FmAE1zuhtvRE-gNQDL-17">
+          <mxGeometry x="0.001" width="80" relative="1" as="geometry">
+            <mxPoint x="260" y="1760" as="sourcePoint" />
+            <mxPoint x="460" y="1760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="401" y="1760" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-66" value="listarPedidos(pedidos)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-17" target="b2FmAE1zuhtvRE-gNQDL-16">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="460" y="1800" as="sourcePoint" />
+            <mxPoint x="260" y="1800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="1800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b2FmAE1zuhtvRE-gNQDL-67" value="mostrarPedidos(pedidos)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="b2FmAE1zuhtvRE-gNQDL-16" target="b2FmAE1zuhtvRE-gNQDL-22">
+          <mxGeometry x="-0.7492" width="80" relative="1" as="geometry">
+            <mxPoint x="260" y="1840" as="sourcePoint" />
+            <mxPoint x="660" y="1840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="401" y="1840" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
